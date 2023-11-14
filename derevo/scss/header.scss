@@ -22,17 +22,27 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":1128px, "xl":1366px);
     font-family: 'Comfortaa';
     font-size: 1em;
 }
+.dop_block{
+    height: 100px;
+}
 .content{
     width: 100%;
     position: fixed;
     border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+body{
+    background: linear-gradient(90deg,rgb(104, 228, 187),rgb(104, 228, 187), rgb(228, 104, 201),rgb(137, 104, 228));
+    
 }
 header{
     overflow: hidden;
 }
 .head{
     width: 80%;
+    
     margin: auto;
+    
     display: flex;
     justify-content: space-around;
     height: 100px;
@@ -140,4 +150,22 @@ header{
         }
     }
 
+}
+
+
+
+
+
+
+content{
+    display: flex;
+    flex-direction: column;
+    
+    img{
+        width: 60vw;
+        margin: auto;
+        border-radius: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
